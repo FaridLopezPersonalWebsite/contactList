@@ -1,12 +1,14 @@
 
-import './App.css'
+import ContactList from './components/ContactList';'/src/components/ContactList.jsx'
+import './App.css';
 
-function App() {
+export default function App() {
   
 
   return (
-    <div> Hello World!</div>
-  )
+    <>
+      <ContactList />
+    </>
+  );
 }
 
-export default App
