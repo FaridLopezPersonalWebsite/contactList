@@ -14,7 +14,7 @@ import SelectedContact from './components/SelectedContact/SelectedContact';
         setSelectedContactId={setSelectedContactId}
         />  
       ) : (
-        <ContactList setSelectedContactId={setSelectedContactId}/>
+        <ContactList setSelectedContactId={setSelectedContactId} />
       )}
     </>
   );
